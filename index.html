@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="lnav">
+                <i class="ri-arrow-left-line"></i>
+                <div id="lnavr">
+                    <a href="home.html">home</a>
+                    <a href="">work</a>
+                    <i class="ri-twitter-fill"></i>
+
+                </div>
+            </div>
+            <div id="textcenter">
+                <h1>Hello</h1>
+                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+                    visual form of a document or a typeface without relying on meaningful content.
+                    Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                <a href="">read</a>
+            </div>
+
+        </div>
+        <div id="right">
+            <div id="rtop">
+                <div id="rtopleft"></div>
+                <div id="rtopright"></div>
+            </div>
+            <div id="rbottom"></div>
+        </div>
+
+    </div>
+    <div id="header"></div>
+    window.onload = function ()
+    {
+        var header = document.getElementById('header');
+        var footer = document.getElementByID('footer');
+
+        header.innerHTML = "<h1>My website</h1><h2>Rules</h2>";
+        footer.innerHTML = "<small>This code is in the public domain</small>";
+    }
+    <div id="footer"></div>
+</div>
+</body>
+
+</html>
